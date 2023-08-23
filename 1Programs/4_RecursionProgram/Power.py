@@ -1,6 +1,3 @@
-#   Created by Elshad Karimov 
-#   Copyright © 2023 AppMillers. All rights reserved.
-
 #  Question 2 - How to calculcate the power of number using recursion?
 
 def power(base, exp):

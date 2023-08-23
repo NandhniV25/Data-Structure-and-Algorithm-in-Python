@@ -7,7 +7,7 @@ def sumofDigits(n):
     if n == 0:
         return 0
     else:
-        return int(n%10) + sumofDigits(int(n/10))
+        return int(n%10) + sumofDigits(int(n//10))
 
 print(sumofDigits(11111))
 
@@ -15,6 +15,7 @@ print(sumofDigits(11111))
 #Question 2
 
 def power(base,exp):
+    assert int(exp) == exp, 'The exponent must be a integer number only'
     if exp == 0:
         return 1
     if(exp==1):
