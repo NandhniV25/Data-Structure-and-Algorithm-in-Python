@@ -126,7 +126,7 @@ circularSLL.insertCSLL(2,1)
 circularSLL.insertCSLL(3,1)
 
 print([node.value for node in circularSLL]) 
-circularSLL.deleteEntireCSLL()
+circularSLL.deleteNode(10)
 print([node.value for node in circularSLL]) 
 
 
